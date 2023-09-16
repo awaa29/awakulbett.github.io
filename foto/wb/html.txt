@@ -1,0 +1,39 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="indexlogin.css">
+    
+    <title>Document</title>
+    <style>
+        html{
+            background-image:url(gambr/ML.jpg);
+            background-size:cover;
+            background-repeat:no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="">
+        <section>
+            <div class="from-box">
+            <div class="from-flue">
+              <from action="">
+                <h2>Login</h2>
+                <div class="inputbox">
+                    <ion-icon name="person-outline"></ion-icon>
+                    <input type="username" name="username"required>
+                    <label for="">username</labe>
+                </div>
+                <div class="inputbox">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                    <input type="password" name="password" required>
+                    <label for="">password</label>
+                </div>
+                <button>login</button>
+        </section>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodula rc="htpps://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js></script"></script>
+        </form>
+</body>
+</html>
